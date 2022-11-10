@@ -1,6 +1,6 @@
 import expressRoutes, { Router } from "express";
-import productRoutes from "./Product";
-import cartRoutes from "./Cart";
+import productRoutes from "./api/Product";
+import cartRoutes from "./api/Cart";
 
 //Creación de variable para enrutar los distintos modelos 
 //Esto serán las rutas donde nos podremos comunicar con la API
